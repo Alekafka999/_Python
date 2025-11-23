@@ -36,7 +36,7 @@ else:
 
 horario = input('Digite a hora: ')
 
-if horario >= 0 and horario <= 11:
+if horario 0 <= horario <= 11:
     print('Bom dia!')
     print('Tenha um bom dia!')
 
