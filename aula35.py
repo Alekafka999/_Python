@@ -26,7 +26,7 @@ while contador <= 15:
         print('666 The Number of the Beast')
         continue
     if contador == 13:  
-        print('13 é o verdadeiro número das bestas')  
+        print('Pulando o 13 como os elevadores nos EUA')  
         continue
     if contador >= 16:
         break
