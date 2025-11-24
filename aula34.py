@@ -16,3 +16,4 @@ while condicao:
     if nome == 'sair':
         break
 
+print('Its over')
