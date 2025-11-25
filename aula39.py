@@ -8,15 +8,13 @@ Resultado *L*U*I*Z*
 
 '''
 
-contador = 1 
+nome = "Alessandra"
 
-while contador <= 6:
-    print(*'contador')     
+indice = 0
+while indice < len(nome):
+    print(nome[indice], end='*')
+    indice += 1
+    
 
-    if contador == 6:
-        print('Chegou no 6')
-        continue
-
-print('F-I-M-!')
 
 
