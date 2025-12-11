@@ -54,7 +54,6 @@ clear - Remove todos os itens da lista
 extend - Estende a lista adicionando outros valores (uma lista ou qualquer iterável)
 + - Concatena listas - polimorfismo
 
-'''
 
 lista = [10,20,30,40,50]
 lista.insert(2,666)
@@ -67,3 +66,15 @@ lista_a = [1,2,3]
 lista_b = [4,5,6]
 lista_c = lista_a + lista_b
 print(lista_c)
+
+
+
+lista_a = ['Luiz', 'Maria', 1, 2, False]
+lista_b = lista_a.copy()
+
+lista_a[0] = 'Qualquer coisa'
+
+print(lista_b)
+
+'''
+
