@@ -1,7 +1,8 @@
 '''
 Docstring for aula57
 Revisão: Lista de listas + índices
-
+'''
+salas = [
     # 0        1
     ['Maria', 'Helena', ],  # 0
     # 0
@@ -13,7 +14,7 @@ Revisão: Lista de listas + índices
 print(salas[2][2])
 print(salas[2][3][2])
 
-'''
+
 
 def fibonacci(n):
     seq = []
